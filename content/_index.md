@@ -1,5 +1,5 @@
 ---
-title: "Making Short-form Science Content for Social Media"
+title: "Making Short-form Science Video Content for Social Media"
 description: "A Learning-by-doing workshop series jointly run by the Science Communication Society and the Oxford Society for Science Communication and Engagement."
 date: 2026-10-18
 lastmod: 2026-10-18
