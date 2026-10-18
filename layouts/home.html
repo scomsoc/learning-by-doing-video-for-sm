@@ -12,14 +12,16 @@
           src="{{ .Params.logo1 | relURL }}"
           alt="{{ .Params.logo1_alt | default "Partner logo" }}"
           class="workshop-logo"
-          style="height: 2rem !important; width: auto !important; max-width: 9rem !important; object-fit: contain;"
+          width="190"
+          height="32"
         >
 
         <img
           src="{{ .Params.logo2 | relURL }}"
           alt="{{ .Params.logo2_alt | default "Partner logo" }}"
           class="workshop-logo"
-          style="height: 2rem !important; width: auto !important; max-width: 9rem !important; object-fit: contain;"
+          width="180"
+          height="32"
         >
       </div>
       {{ end }}
