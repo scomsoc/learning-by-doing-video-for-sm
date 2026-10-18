@@ -1,0 +1,136 @@
+{{ define "main" }}
+<section class="section container-fluid mt-n3 pb-3">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 text-center">
+      <h1>{{ .Title }}</h1>
+
+      {{ if and .Params.logo1 .Params.logo2 }}
+      <div class="d-flex justify-content-center align-items-center gap-4 flex-wrap my-4" aria-label="Workshop organisers">
+        <img
+          src="{{ .Params.logo1 | relURL }}"
+          alt="{{ .Params.logo1_alt | default "Partner logo" }}"
+          class="img-fluid workshop-logo"
+          style="height: 48px; width: auto; max-width: 180px; object-fit: contain;"
+        >
+        <img
+          src="{{ .Params.logo2 | relURL }}"
+          alt="{{ .Params.logo2_alt | default "Partner logo" }}"
+          class="img-fluid workshop-logo"
+          style="height: 48px; width: auto; max-width: 180px; object-fit: contain;"
+        >
+      </div>
+      {{ end }}
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    </div>
+
+    <div class="col-lg-9 col-xl-8">
+      <div class="workshop-content">
+        {{ with .Params.lead }}
+        <p class="lead text-center">{{ . | safeHTML }}</p>
+        {{ end }}
+
+        <div class="text-center">
+          <a
+            class="btn btn-primary btn-cta rounded-pill btn-lg my-3"
+            href="https://forms.gle/9zkvUWP23sCd27mH7"
+            role="button"
+          >
+            Register now
+          </a>
+
+          <a
+            class="btn btn-outline-primary btn-cta rounded-pill btn-lg my-3"
+            href="{{ "/docs/workshop-schedule/" | relURL }}"
+            role="button"
+          >
+            Workshop schedule
+          </a>
+        </div>
+
+        <section class="workshop-section">
+          <p>
+            We are organising a workshop series where participants will learn the practical skills
+            needed to record, script, and edit short-form, social media-friendly science videos.
+          </p>
+          <p>
+            In a true learning-by-doing style, participants will work in teams and collaborate with
+            partnering organisations to create videos for them.
+          </p>
+          <p>
+            To supplement the practical sessions, we will host optional discussion sessions about the
+            changing media landscape. These sessions will examine the positive uses of social media,
+            as well as its challenges.
+          </p>
+        </section>
+
+        <section class="workshop-section">
+          <h2>How is the workshop structured?</h2>
+          <p>
+           Each team will consist of science communicators, including students under training and professionals,
+           and early-career researchers interested in science communication. We hope that the diversity of experience
+           and expertise will allow for peer-to-peer learning.
+          </p>
+
+
+          <p>
+           Each team will be paired with a different organisation that will benefit from the videos created during the workshop series.
+           The exact nature of the outputs and expectations will be agreed between the organisation and the teams.
+           We are actively reaching out to charities to build a diverse portfolio of organisations that can be matched with your research expertise and interests.
+
+          </p>
+        </section>
+
+
+
+        <section class="workshop-callout">
+          <h2>How to Register?</h2>
+          <div class="workshop-details" aria-label="Workshop details">
+          <div class="workshop-detail">
+            <strong>Who can apply?</strong>
+            <span>Undergraduate, master's, and PhD students, as well as science communicators.</span>
+          </div>
+          <div class="workshop-detail">
+            <strong>When?</strong>
+            <span>November 2026–January 2027, with the first session on 14 November 2026 in Oxford. The workshop sessions are conducted online.</span>
+          </div>
+          <div class="workshop-detail">
+            <strong>Places available</strong>
+            <span>Up to 20 participants.</span>
+          </div>
+        </div>
+          <p>
+            No prior experience in video or film is needed; just bring your enthusiasm!
+          </p>
+          <p>
+            As this is our first workshop series of its kind, registration numbers will be kept small.
+            We have an exciting line-up of facilitators and sessions, so sign up today.
+          </p>
+
+          <p>
+            If you have any questions, please contact us at <a href="mailto:scomsocimperial@gmail.com">scomsocimperial@gmail.com</a> or <a href="mailto:president@ossce.org.uk">president@ossce.org.uk</a>.
+          </p>
+          <div class="text-center">
+          <a
+            class="btn btn-primary btn-cta rounded-pill btn-lg my-3"
+            href="https://forms.gle/9zkvUWP23sCd27mH7"
+            role="button"
+          >
+            Register now
+          </a>
+          </div>
+        </section>
+      </div>
+
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-prefooter" }}
+  {{ if site.Params.doks.backgroundDots -}}
+  <div class="d-flex justify-content-start">
+    <div class="bg-dots"></div>
+  </div>
+  {{ end -}}
+{{ end }}
