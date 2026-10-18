@@ -1,5 +1,5 @@
 title = "Workshop Website"
-baseurl = "https://social-media-con-workshop.netlify.app"
+baseurl = "https://sci-video-for-social-media-workshop.netlify.app"
 disableAliases = true
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
