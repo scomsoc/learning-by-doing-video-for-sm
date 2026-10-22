@@ -16,3 +16,5 @@ params:
 ---
 
 Lindenfeld, L. (2026). Science communication for scientists: Linking strategy with creativity, practice, and respect. Routledge/Taylor & Francis Group.
+
+_More to be added._
