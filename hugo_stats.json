@@ -4,6 +4,8 @@
       "a",
       "article",
       "aside",
+      "b",
+      "b4",
       "base",
       "body",
       "br",
@@ -242,7 +244,9 @@
       "offcanvasNavMainLabel",
       "offcanvasNavSection",
       "offcanvasNavSectionLabel",
+      "preparatory-work",
       "query",
+      "schedule",
       "search-form",
       "searchModal",
       "searchModalLabel",
@@ -250,7 +254,8 @@
       "searchToggleDesktop",
       "searchToggleMobile",
       "socialMenu",
-      "toc"
+      "toc",
+      "workshop-mixer"
     ]
   }
 }
