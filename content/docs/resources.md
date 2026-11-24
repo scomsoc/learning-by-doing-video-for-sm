@@ -1,9 +1,9 @@
 ---
 title: "Resources"
-description: "Discover curated links to official docs, tools, templates, and learning materials that help you deepen your knowledge and get more from this project."
+description: "Science Communication resources relevant to this workshop"
 summary: ""
-date: 2024-02-27T09:30:56+01:00
-lastmod: 2024-02-27T09:30:56+01:00
+date: 2026-11-23
+lastmod: 2026-11-23
 draft: false
 weight: 999
 toc: true
@@ -14,7 +14,10 @@ params:
     canonical: "" # custom canonical URL (optional)
     robots: "" # custom robot tags (optional)
 ---
+The PDFs are available in the Google Drive folder for the workshop.
 
+## Books
 Lindenfeld, L. (2026). Science communication for scientists: Linking strategy with creativity, practice, and respect. Routledge/Taylor & Francis Group.
 
-_More to be added._
+Better Conversations about Ethical Storytelling
+
