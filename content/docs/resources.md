@@ -16,8 +16,6 @@ params:
 ---
 The PDFs are available in the Google Drive folder for the workshop.
 
-## Books
-Lindenfeld, L. (2026). Science communication for scientists: Linking strategy with creativity, practice, and respect. Routledge/Taylor & Francis Group.
+- Kuloba-Warria (n.d.). Why should we tell ethical stories? [online] Devex. Available at: https://pages.devex.com/better-communications-chapter-1.html [Accessed 24 Nov. 2026].
 
-Better Conversations about Ethical Storytelling
-
+- Lindenfeld, L. (2026). Science communication for scientists: Linking strategy with creativity, practice, and respect. Routledge/Taylor & Francis Group.
