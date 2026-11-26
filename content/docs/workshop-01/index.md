@@ -6,7 +6,7 @@ toc: true
 ---
 _This workshop session has now concluded._
 
-:date: When? 17th Nov. 2026, Tuesday.
+:date: When? 17th Nov. 2026, Tuesday, 1830 - 2000.
 
 :round_pushpin: Where? Zoom, online.
 
