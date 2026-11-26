@@ -4,8 +4,6 @@ description: ""
 weight: 3
 toc: true
 ---
-_This workshop session has now concluded._
-
 :date: When? 26th Nov. 2026, Thursday, 1930 - 2100.
 
 :round_pushpin: Where? Zoom, online.
